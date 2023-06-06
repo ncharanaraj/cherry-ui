@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+:root {
+  --error-bg-color: #fad7d2;
+  --error-color: #dc2626;
+  --hover-color-grey: #fffffa5d;
+  --info-bg-color: #afcdf5;
+  --info-color: #0284c7;
+  --light-color: #f8fafc;
+  --primary-color-500: #ef4444;
+  --primary-color-400: #f87171;
+  --primary-color-200: #fecaca;
+  --secondary-color: #d92b6d;
+  --success-bg-color: #92fdbf;
+  --success-color: #157a00;
+  --warning-bg-color: #fcea88;
+  --warning-color: #836f00;
+  --default-color: #535353;
+  --disabled-color: #8b8b8b;
+  --primary-bg-color: #d1d8ff;
+  --primary-light-color: #c4b5fd;
+  --shadow-color: #b9b9b9;
+  --dark-color: #000000;
+  --display-box-border: #e6e6e6;
+  --star-rating: #ffcd3c;
+
+  --default-shadow: 0 0 0.625rem var(--shadow-color);
+  --right-shadow: 10px 0 10px -10px var(--shadow-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-color);
+  cursor: pointer;
+}
+
+.flex-column-center {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.flex-row-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.heading1 {
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Scrollbar Customisation*/
+::-webkit-scrollbar {
+  height: 2px;
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color-500);
+  border-radius: 0.625rem;
+}

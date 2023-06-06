@@ -28,7 +28,7 @@
     <meta property="og:site_name" content="Cherry UI" />
 
     <!-- Linking stylesheet file -->
-    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="stylesheet" href="./styles/main.css" />
 
     <!-- fontawesome icons -->
     <script
@@ -57,11 +57,73 @@
     <link rel="manifest" href="./assets/manifest.json" />
   </head>
   <body>
+    <header class="header-container">
+      <div class="wrapper header-items flex-row-center">
+        <a href="http://">
+          <div class="flex-column-center">
+            <div class="brand-name"><span>Cherry</span> UI</div>
+            <p class="brand-text">A Component Library</p>
+          </div>
+        </a>
+        <div class="header-social-links flex-row-center">
+          <div>
+            <a
+              href="https://github.com/ncharanaraj"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="github"
+            >
+              <i
+                class="fa fa-github header-social-icon fa-lg"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.linkedin.com/in/ncharanaraj/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="linkedin"
+            >
+              <i
+                class="fa fa-linkedin header-social-icon fa-lg"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://twitter.com/ncharanaraj"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="twitter"
+            >
+              <i
+                class="fa fa-twitter header-social-icon fa-lg"
+                aria-hidden="true"
+              ></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
     <div class="wrapper">
-      <header></header>
-      <nav></nav>
-      <main></main>
-      <footer></footer>
+      <main class="hero-container flex-column-center">
+        <div class="heading1 align-center">
+          A Component Library that has everything you need to build a website.
+        </div>
+        <div>
+          <button class="getting-started-btn">Getting Started</button>
+          <button class="view-source-btn">Source Code</button>
+        </div>
+      </main>
     </div>
+    <footer class="flex-column-center">
+      <div class="wrapper align-center">
+        <p class="footer-text">Made with ❣️ by Charanaraj N</p>
+        <p class="footer-text">© 2023 | Cherry UI</p>
+      </div>
+    </footer>
   </body>
 </html>

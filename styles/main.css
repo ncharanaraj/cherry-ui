@@ -1,0 +1,42 @@
+@import url(./reset.css);
+@import url(./globalVar.css);
+@import url(./header.css);
+@import url(./footer.css);
+
+.wrapper {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.hero-container {
+  height: 80vh;
+  max-width: 60vw;
+  margin: auto;
+  gap: 2rem;
+}
+
+button {
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.getting-started-btn {
+  border: none;
+  background-color: var(--primary-color-500);
+  color: var(--light-color);
+}
+
+.getting-started-btn:hover {
+  background-color: var(--primary-color-400);
+}
+
+.view-source-btn {
+  border: 1px solid var(--primary-color-400);
+  background-color: var(--light-color);
+}
+
+.view-source-btn:hover {
+  background-color: var(--primary-color-200);
+}
