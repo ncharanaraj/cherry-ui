@@ -1,0 +1,34 @@
+.header-container {
+  box-shadow: 0 0 0.625rem var(--shadow-color);
+}
+
+.header-items {
+  justify-content: space-between;
+  padding: 0.5rem 0;
+}
+
+.brand-name,
+span {
+  font-size: 2.2rem;
+  font-weight: 900;
+}
+
+.brand-name > span {
+  color: var(--primary-color-500);
+}
+
+.brand-text {
+  font-weight: 200;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  line-height: 2em;
+}
+
+.header-social-links {
+  gap: 2rem;
+}
+
+.header-social-icon:hover {
+  color: var(--primary-color-400);
+  padding: 1rem;
+}
