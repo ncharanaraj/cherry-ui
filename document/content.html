@@ -28,7 +28,7 @@
     <meta property="og:site_name" content="Cherry UI" />
 
     <!-- Linking stylesheet file -->
-    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="../styles/content.css" />
 
     <!-- fontawesome icons -->
     <script
@@ -39,18 +39,18 @@
     <!-- favicons -->
     <link
       rel="apple-touch-icon"
-      href="./assets/apple-icon-180x180.png"
+      href="../assets/apple-icon-180x180.png"
       sizes="180x180"
     />
     <link
       rel="shortcut icon"
-      href="./assets/favicon-32x32.png"
+      href="../assets/favicon-32x32.png"
       type="image/x-icon"
       sizes="32x32"
     />
     <link
       rel="shortcut icon"
-      href="./assets/favicon-16x16.png"
+      href="../assets/favicon-16x16.png"
       type="image/x-icon"
       sizes="16x16"
     />
@@ -108,20 +108,37 @@
         </div>
       </div>
     </header>
-    <div class="wrapper">
-      <main class="hero-container flex-column-center">
-        <div class="heading1 align-center">
-          A Component Library that has everything you need to build a website.
+    <div class="wrapper sidebar-and-content">
+      <aside class="sidebar">
+        <ul>
+          <li class="sidebar-content active">
+            <a href="content.html" class="sidebar-content-item active"
+              >Insatallation</a
+            >
+          </li>
+          <h2 class="sidebar-heading heading2">Components</h2>
+          <li class="sidebar-content">
+            <a href="content.html" class="sidebar-content-item">Alerts</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="content-container">
+        <div class="content-wrapper">
+          <h1 class="heading3 mb">Installation</h1>
+          <p class="content-description">
+            To incorporate the Cherry UI into your projects, simply copy and
+            paste the following code snippet into the 'head' section of your
+            HTML file, and you'll be able to utilize all of its components. The
+            fontawesome library is employed for all the icons within the Cherry
+            UI.
+          </p>
         </div>
-        <div>
-          <button class="getting-started-btn">Getting Started</button>
-          <a
-            href="https://github.com/ncharanaraj/cherry-ui"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="cherry-ui component library source code"
-            ><button class="view-source-btn">Source Code</button></a
-          >
+        <div class="content-wrapper">
+          <h4 class="heading4 mb">Starter Template</h4>
+          <p class="content-description">
+            After importing the above stylesheet, the starter code would look
+            like this
+          </p>
         </div>
       </main>
     </div>

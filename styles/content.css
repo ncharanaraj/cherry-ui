@@ -1,0 +1,62 @@
+@import url("./reset.css");
+@import url("./globalVar.css");
+@import url("./header.css");
+@import url("./main.css");
+@import url("./footer.css");
+
+.wrapper {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.sidebar {
+  box-shadow: var(--right-shadow);
+  border-right: 1px solid var(--primary-bg-color);
+  height: calc(100vh - 2rem);
+  min-width: 14rem;
+  overflow-y: auto;
+  padding-top: 0.625rem;
+  position: sticky;
+}
+
+.sidebar-heading {
+  padding-left: 2rem;
+  padding: 0.75rem;
+}
+
+.sidebar-and-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar > ul > li {
+  padding: 0.75rem;
+  padding-left: 2rem;
+}
+
+.sidebar-content:hover {
+  background-color: var(--primary-bg-color);
+}
+
+.active {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-color);
+}
+
+.content-container {
+  height: calc(100vh - 5rem);
+  margin-top: 1rem;
+  overflow-y: scroll;
+  width: 100%;
+}
+
+.content-wrapper {
+  max-width: 80%;
+  margin: auto;
+  padding: 1rem 0;
+}
+
+.content-description {
+  line-height: 1.5;
+  font-size: 1.1em;
+}
