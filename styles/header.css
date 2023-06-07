@@ -8,12 +8,12 @@
 }
 
 .brand-name,
-span {
+.title {
   font-size: 2.2rem;
   font-weight: 900;
 }
 
-.brand-name > span {
+.title {
   color: var(--primary-color-500);
 }
 
