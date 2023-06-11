@@ -5,20 +5,27 @@
 }
 
 :root {
-  --error-bg-color: #fad7d2;
-  --error-color: #dc2626;
-  --hover-color-grey: #fffffa5d;
-  --info-bg-color: #afcdf5;
-  --info-color: #0284c7;
+  /* Error */
+  --error-bg-100: #fee2e2;
+  --error-text-500: #ef4444;
+  --hover-color-gray: #fffffa5d;
+
+  /* Info - Sky */
+  --info-bg-100: #e0f2fe;
+  --info-text-500: #0ea5e9;
+
   --light-color: #f8fafc;
   --primary-color-500: #ef4444;
   --primary-color-400: #f87171;
   --primary-color-200: #fecaca;
   --secondary-color: #d92b6d;
-  --success-bg-color: #92fdbf;
-  --success-color: #157a00;
-  --warning-bg-color: #fcea88;
-  --warning-color: #836f00;
+  /* Success - Emerald */
+  --success-bg-100: #d1fae5;
+  --success-text-500: #10b981;
+  /* Warning - Amber */
+  --warning-bg-100: #fef3c7;
+  --warning-text-500: #fbbf24;
+
   --default-color: #535353;
   --disabled-color: #8b8b8b;
   --primary-bg-color: #fecaca;
@@ -85,6 +92,10 @@ li {
 
 .mb {
   margin-bottom: 1rem;
+}
+
+.keyword {
+  color: var(--primary-color-500);
 }
 
 /* Scrollbar Customisation*/
