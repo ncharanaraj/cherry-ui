@@ -62,14 +62,14 @@
   font-size: 1.1em;
 }
 
-.snippet {
-  font-size: 1rem !important;
-  font-style: normal;
-}
-
 .display-component {
   background-color: var(--hover-color-gray);
   padding: 1rem;
   border: 1px solid var(--display-box-border);
   margin-top: 1rem;
+  border-radius: 0.3rem;
+}
+
+.hljs-style-default .hljs {
+  background: #fafafa !important;
 }

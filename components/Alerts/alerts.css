@@ -14,20 +14,43 @@
 
 .alert-success {
   background-color: var(--success-bg-100);
-  color: var(--success-text-500);
+  color: var(--success-500);
 }
 
 .alert-info {
   background-color: var(--info-bg-100);
-  color: var(--info-text-500);
+  color: var(--info-500);
 }
 
 .alert-warning {
   background-color: var(--warning-bg-100);
-  color: var(--warning-text-500);
+  color: var(--warning-500);
 }
 
 .alert-error {
   background-color: var(--error-bg-100);
-  color: var(--error-text-500);
+  color: var(--error-500);
+}
+
+.alert-success-filled,
+.alert-info-filled,
+.alert-warning-filled,
+.alert-error-filled {
+  color: var(--light-color);
+}
+
+.alert-success-filled {
+  background: var(--success-500);
+}
+
+.alert-info-filled {
+  background: var(--info-500);
+}
+
+.alert-warning-filled {
+  background: var(--warning-500);
+}
+
+.alert-error-filled {
+  background: var(--error-500);
 }
